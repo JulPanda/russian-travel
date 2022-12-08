@@ -2,7 +2,7 @@
 .places {
   margin: 0 auto;
  /* margin-left: 148px;
-  margin-right: 148px;*/ 
+  margin-right: 148px;*/
   display: grid;
   grid-template-columns: 1fr;
   gap: 80px;
