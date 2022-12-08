@@ -1,7 +1,7 @@
 
 
 .place__main-text {
-    margin: 0;  
+    margin: 0;
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
@@ -12,7 +12,7 @@
   
 
   @media screen and (max-width: 1024px) {
-    .place__main-text {      
+    .place__main-text {
       max-width: 456px;
     }
   }
@@ -27,19 +27,14 @@
   }
  
   @media screen and (max-width: 700px) {
-    .place__main-text { 
-      max-width: 652px;    
-     /* grid-column-start: 1;
-      grid-row-start: 4;     */     
-    }  
+    .place__main-text {
+      max-width: 652px;        
+    }
   }
   
   
   @media screen and (max-width: 320px) {
     .place__main-text {
-      max-width: 288px;
-     /* gap: 32px;
-      grid-column-start: 1;
-      grid-row-start: 4;  */        
+      max-width: 288px;            
     }  
   } 

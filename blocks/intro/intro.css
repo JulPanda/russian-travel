@@ -5,18 +5,18 @@
     padding-top: 92px;
     padding-bottom: 92px;
    /* padding: 92px 148px 92px;  */
-    color: #ffffff;  
+    color: #ffffff;
     max-width: 984px;
     /*max-height: 429px;*/
   }
   
   @media screen and (max-width: 1024px) {
-    .intro {    
+    .intro {
       /*max-width: 928px;*/
       /*padding-left: 48px;*/
       /*padding-right: 48px;*/
-      max-width: calc (100%-96px);
-    }  
+      max-width: calc(100% - 96px);
+    }
   }
   
   
@@ -27,7 +27,7 @@
      /* padding-left: 24px;*/
      /* padding: 88px 24px 88px;*/
      /* max-width: 768px;   */ 
-     max-width: calc(100%-48px);     
+     max-width: calc(100% - 48px);
     }  
   }
   
