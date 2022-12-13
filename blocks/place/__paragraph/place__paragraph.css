@@ -1,7 +1,6 @@
 .place__paragraph {
   margin: 0;
-  padding: 0;
-  padding-bottom: 26px;
+  padding: 0 0 26px;
 }
 
 .place__paragraph:last-child {
@@ -14,10 +13,15 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 886px) {
+  .place__paragraph {
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 760px) {
   .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 25px;
   }
 }
